@@ -1,7 +1,7 @@
 using MongoDB.Bson.Serialization.Attributes;
 
 public class Vuelo {
-    [BsonId, BsonRepresentation(MongoDB.Bson.BsonType.ObjectOd)]
+    [BsonId, BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
     public string? Id { get; set; }
 
     [BsonElement("pais_origen")]
